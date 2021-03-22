@@ -1,0 +1,65 @@
+
+/* 
+    @ website : vietnam-visa.vn
+    @ version : 4.0
+    @ Deployment date : 09/09/2020
+    @ Team : Front end develop VNB
+*/
+
+//----------class for text color
+.c-blue {color: $c-blue};
+.c-violet {color: $c-violet};
+.c-white {color: $c-white};
+.c-black {color: $c-black};
+
+//----------class for weight
+
+.txt-10-14 {
+    font-size: $fs-10;
+    line-height: $line-h-14;
+}
+.txt-14-22 {
+    font-size: $fs-14;
+    line-height: $line-h-22;
+}
+.txt-16-26 {
+    font-size: $fs-16;
+    line-height: $line-h-26;
+}
+.txt-14-22-smb {
+    font-size: $fs-14;
+    line-height: $line-h-22;
+}
+.txt-16-26-smb {
+    font-size: $fs-16;
+    line-height: $line-h-26;
+}
+.txt-20-28 {
+    font-size: 20px;
+    line-height: 28px;
+}
+.hd-5 {
+    font-size: $fs-14;
+    line-height: $line-h-22;
+    font-weight: bold;
+}
+.hd-4 {
+    font-size: $fs-16;
+    line-height: $line-h-26;
+    font-weight: bold;
+}
+.hd-3{
+    font-size: $fs-20;
+    line-height: $line-h-28;
+    font-weight: bold;
+}
+.hd-2{
+    font-size: $fs-24;
+    line-height: $line-h-32;
+    font-weight: bold;
+}
+.hd-1{
+    font-size: $fs-32;
+    line-height: $line-h-40;
+    font-weight: bold;
+}

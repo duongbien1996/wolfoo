@@ -1,0 +1,34 @@
+
+.wolfoo__header {
+    background: url('../images/im_bg_white_nav.png') no-repeat bottom left;
+    background-size: cover;
+    padding: 26px 0;
+}
+.header__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .wolfoo__logo {
+        width: 15%;
+        img {
+            width: 100%;
+        }
+    }
+    .wolfoo__nav {
+        ul {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            
+            li {
+                list-style: none;
+                a {
+                    font-weight: bold;
+                    color: $c-blue;
+                    padding: 0 16px;
+                }
+            }
+        }
+    }
+}
