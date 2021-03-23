@@ -29,11 +29,17 @@ html {
 }
 
 // clear
-textarea:focus, input:focus,.btn:focus,.btn.focus{
-    outline: none;
-    box-shadow: none;
+textarea:focus, input:focus,.btn:focus,.btn.focus, button:focus, button.btn.focus{
+    outline: none !important;
+    box-shadow: none !important;
 }
-
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active
+{
+ -webkit-box-shadow: 0 0 0 30px white inset !important;
+}
 // reset thuộc tính thẻ a
 a {
     text-decoration: none !important;

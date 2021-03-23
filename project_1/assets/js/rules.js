@@ -1,26 +1,40 @@
 
 $(document).ready(function () {
-    /**
-        @ Sử dụng cho thư viện slide slick 
-        Update by : duongbien
-        Date : 21/03/2021
-    */
-    var swiper = new Swiper('.swiper-container', {
-        effect: 'coverflow',
-        grabCursor: true,
-        centeredSlides: true,
-        slidesPerView: 'auto',
-        loop: true,
-        coverflowEffect: {
-            rotate: 50,
-            stretch: 0,
-            depth: 100,
-            modifier: 1,
-            slideShadows: true,
-        },
-        // pagination: {
-        //     el: '.swiper-pagination',
-        //     type: 'bullets',
-        // },
-    });
+    /* sử dụng cho thư viện owl2 */
+    $('.owl__meet').owlCarousel({
+        loop:true,
+        margin:70,
+        nav:true,
+        dots:false,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:2
+            },
+            1000:{
+                items:3
+            }
+        }
+    })
+
+
+    $('.owl__subsview').owlCarousel({
+        loop:true,
+        margin:56,
+        nav:true,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:3
+            },
+            1000:{
+                items:5
+            }
+        }
+    })
+
 });
