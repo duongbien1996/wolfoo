@@ -155,6 +155,12 @@
         margin-top: 0;
         padding: 40px 0 100px 0;
     }
+    .diaries--pd {
+        padding-bottom: 140px;
+        @include mobile {
+            padding-bottom: 0;
+        }
+    }
     .diaries__title {
         font-size: 55px;
         line-height: 70px;
